@@ -1,128 +1,377 @@
-body{
-  background-image: url('/files/elliott-engelmann-DjlKxYFJlTc-unsplash.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  backdrop-filter: blur(3px);
-  overflow: hidden;
-}
-.profile img{
-  height: 300px;
-  display: inline;
+@media (min-width:320px) and (max-width:900px){
+  .App{
+    background-image: url('../files/elliott-engelmann-DjlKxYFJlTc-unsplash.jpg');
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    background-size: 100% 100%;
+  }
+
+  .navBar li{
+    text-align: right;
+    display: inline-flex;
+    line-height: 5px;
+    padding-inline-start: 20px;
+    text-align: center;
+
+  }
+  .navBar li a{
+    color: white;
+    font-size:15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .sidetext p,svg{
+    color: white;
+    font-size: 20px;
+    font-family: "Playwrite ES Deco", cursive;
+    padding-inline-start: 30px;
+  }
+
+  .sidetext svg{
+    font-size: 30px;
+  }
+
+  .profile img{
+    height: 300px;
+    width: 300px;
+  }
+
+  .name h2{
+    color:white;
+    font-family: "Playwrite ES Deco", cursive;
+    padding-inline-start: 15px;
+  }
+
+  .designation h4{
+    color: white;
+    font-family: 'Segoe UI';
+    padding-inline-start: 15px;
+  }
+
+  .pro{
+    justify-content: center;
+    color: white;
+    padding-inline-end: 10px;
+    width: 90%;
+    line-height: 2;
+    padding-inline-start: 15px;
+  }
+
+  .internship h2{
+    text-align: center;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .internship h3,h5{
+    font-family: "Roboto Mono", monospace;
+    color: white;
+  }
+
+  .internship p{
+    color: gold;
+  }
+
+  .internship hr{
+    width: 30px;
+  }
+
+  .education h2{
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .education h3,h5{
+    font-family: "Roboto Mono", monospace;
+    color: white;
+  }
+
+  .education p{
+    color: gold;
+  }
+
+  .contact {
+    color:white;
+    text-decoration: none;
+    line-height: 60px;
+    letter-spacing: 3px;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .contact a{
+    color:white;
+    text-decoration: none;
+    padding-top: 40px;
+    line-height: 60px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
 }
 
-.name h2{
-  font-family: "Playwrite ES Deco", cursive;
-  color: white;
-  padding-inline-start: 25px;
+@media (min-width:901px) and (max-width:1900px){
+  body{
+    background-image: url('/files/elliott-engelmann-DjlKxYFJlTc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(3px);
+    overflow: hidden;
+  }
+  .profile img{
+    height: 300px;
+    display: inline;
+  }
+  
+  .name h2{
+    font-family: "Playwrite ES Deco", cursive;
+    color: white;
+    padding-inline-start: 25px;
+  }
+  
+  .navBar li{
+    display: inline
+  }
+  
+  .navBar ol{
+    list-style-type: none;
+  }
+  
+  .navBar li a{
+    text-decoration: none;
+    color: white;
+    padding-inline-start: 35px;
+  }
+  .error img{
+    width :500px;
+    height: 500px;
+    display: block;
+    margin:auto;
+  }
+  
+  .pro p{
+    color: white;
+    padding-inline-start: 25px;
+    width: 1300px;
+    font-size: larger;
+    overflow: hidden;
+  }
+  .pro hr{
+    width:300px
+  }
+  .designation{
+    color: whitesmoke;
+    padding-inline-start: 25px;
+    font-size: larger;
+  }
+  
+  .internship h2{
+    color: white;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+  }
+  .internship h3{
+    color:white;
+    padding-inline-start: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .internship h5{
+    color:white;
+    padding-inline-start: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .internship p{
+    color:gold;
+    padding-inline-start: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .internship hr{
+    width:600px;
+  }
+  
+  .education h2,h3{
+    color:white;
+    font-family: "Playfair Display", serif;
+    padding-inline-start: 20px;
+  }
+  
+  .education h5{
+    color:white;
+    font-family: "Playfair Display", serif;
+    padding-inline-start: 20px;
+  }
+  
+  .education p{
+    color:gold;
+    font-family: "Playfair Display", serif;
+    padding-inline-start: 20px;
+  }
+  .education hr{
+    width:600px;
+  }
+  
+  .contact a{
+    text-decoration: none;
+    color: white;
+    font-family: "Playfair Display", serif;
+    padding-inline-start: 280px;
+    padding-top: 60px;
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+  .contact a svg{
+    text-decoration: none;
+    color: white;
+    font-family: "Playfair Display", serif;
+    padding-inline-start: 280px;
+    padding-top: 60px;
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+  
+  .sidetext p{
+    font-family: "Playwrite US Trad", cursive;
+    color: white;
+    text-align: right;
+    font-size: large;
+    padding-right: 10px;
+  }
 }
 
-.navBar li{
-  display: inline
-}
-
-.navBar ol{
-  list-style-type: none;
-}
-
-.navBar li a{
-  text-decoration: none;
-  color: white;
-  padding-inline-start: 35px;
-}
-.error img{
-  width :500px;
-  height: 500px;
-  display: block;
-  margin:auto;
-}
-
-.pro p{
-  color: white;
-  padding-inline-start: 25px;
-  width: 1300px;
-  font-size: larger;
-  overflow: hidden;
-}
-.pro hr{
-  width:300px
-}
-.designation{
-  color: whitesmoke;
-  padding-inline-start: 25px;
-  font-size: larger;
-}
-
-.internship h2{
-  color: white;
-  text-align: center;
-  font-family: "Playfair Display", serif;
-}
-.internship h3{
-  color:white;
-  padding-inline-start: 20px;
-  font-family: "Playfair Display", serif;
-}
-.internship h5{
-  color:white;
-  padding-inline-start: 20px;
-  font-family: "Playfair Display", serif;
-}
-
-.internship p{
-  color:gold;
-  padding-inline-start: 20px;
-  font-family: "Playfair Display", serif;
-}
-.internship hr{
-  width:600px;
-}
-
-.education h3{
-  color:white;
-  font-family: "Playfair Display", serif;
-  padding-inline-start: 20px;
-}
-
-.education h5{
-  color:white;
-  font-family: "Playfair Display", serif;
-  padding-inline-start: 20px;
-}
-
-.education p{
-  color:gold;
-  font-family: "Playfair Display", serif;
-  padding-inline-start: 20px;
-}
-.education hr{
-  width:600px;
-}
-
-.contact a{
-  text-decoration: none;
-  color: white;
-  font-family: "Playfair Display", serif;
-  padding-inline-start: 280px;
-  padding-top: 60px;
-  font-weight: 900;
-  letter-spacing: 3px;
-}
-.contact a svg{
-  text-decoration: none;
-  color: white;
-  font-family: "Playfair Display", serif;
-  padding-inline-start: 280px;
-  padding-top: 60px;
-  font-weight: 900;
-  letter-spacing: 3px;
-}
-
-.sidetext p{
-  font-family: "Playwrite US Trad", cursive;
-  color: white;
-  text-align: right;
-  font-size: large;
-  padding-right: 10px;
+@media (min-width:1901px) {
+  body{
+    background-image: url('/files/elliott-engelmann-DjlKxYFJlTc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(3px);
+    overflow: hidden;
+  }
+  .profile img{
+    height: 300px;
+    display: inline;
+  }
+  
+  .name h2{
+    font-family: "Playwrite ES Deco", cursive;
+    color: white;
+    padding-inline-start: 25px;
+  }
+  
+  .navBar li{
+    display: inline
+  }
+  
+  .navBar ol{
+    list-style-type: none;
+  }
+  
+  .navBar li a{
+    text-decoration: none;
+    color: white;
+    padding-inline-start: 35px;
+  }
+  .error img{
+    width :500px;
+    height: 500px;
+    display: block;
+    margin:auto;
+  }
+  
+  .pro p{
+    color: white;
+    padding-inline-start: 25px;
+    width: 1300px;
+    font-size: larger;
+    overflow: hidden;
+  }
+  .pro hr{
+    width:300px
+  }
+  .designation{
+    color: whitesmoke;
+    padding-inline-start: 25px;
+    font-size: larger;
+  }
+  
+  .internship h2{
+    color: white;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+  }
+  .internship h3{
+    color:white;
+    padding-inline-start: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .internship h5{
+    color:white;
+    padding-inline-start: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .internship p{
+    color:gold;
+    padding-inline-start: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .internship hr{
+    width:600px;
+  }
+  
+  .education h2,h3{
+    color:white;
+    font-family: "Playfair Display", serif;
+    padding-inline-start: 20px;
+  }
+  
+  .education h5{
+    color:white;
+    font-family: "Playfair Display", serif;
+    padding-inline-start: 20px;
+  }
+  
+  .education p{
+    color:gold;
+    font-family: "Playfair Display", serif;
+    padding-inline-start: 20px;
+  }
+  .education hr{
+    width:600px;
+  }
+  
+  .contact a{
+    text-decoration: none;
+    color: white;
+    font-family: "Playfair Display", serif;
+    padding-inline-start: 280px;
+    padding-top: 60px;
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+  .contact a svg{
+    text-decoration: none;
+    color: white;
+    font-family: "Playfair Display", serif;
+    padding-inline-start: 280px;
+    padding-top: 60px;
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+  
+  .sidetext p{
+    font-family: "Playwrite US Trad", cursive;
+    color: white;
+    text-align: right;
+    font-size: large;
+    padding-right: 10px;
+  }
 }

@@ -17,6 +17,7 @@ const Education = () => {
         </ol>
       </div>
       <div className='education' data-aos="fade-up"  data-aos-duration="1500">
+        <h2>Education</h2>
         <h3>Bachelor of Computer Application</h3>
         <h5>Jaya college of Arts and Science, Thiruninravur</h5>
         <p>2021 - 2024</p>

@@ -8,7 +8,7 @@ import { RiOpenSourceFill } from "react-icons/ri";
 const Homepage = () => {
     AOS.init()
   return (
-    <div >
+    <div className='App'>
       <div className='navBar'>
         <ol>
           <li><Link to="/" >Profile</Link></li>

@@ -21,8 +21,10 @@ const Experience = () => {
         <h2>INTERNSHIPS</h2>
         <h3 >Web developer intern</h3>
         <h5 >Octanet Services Pvt.Ltd</h5>
-        <p>jun 2024 - jul 2024</p>
+        <p>Jun 2024 - Jul 2024</p>
+        <br></br>
         <hr></hr>
+        <br></br>
         <h3>Java Developer intern</h3>
         <h5>RPS Pvt.Ltd</h5>
         <p>Mar 2023 - Apr 2023</p>

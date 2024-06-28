@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
     AOS.init()
   return (
-    <div>
+    <div className='App'>
          <div className='navBar'>
         <ol>
           <li><Link to="/" >Profile</Link></li>
